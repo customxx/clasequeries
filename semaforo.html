@@ -5,52 +5,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>semaforo</title>
 	<link rel="stylesheet" href="">
-	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lato|Overpass|Roboto" rel="stylesheet">
 	<style>
 	body{
 			background: green;
-			font-family: 'Lato', sans-serif;	
 		}
-		.clase0, .clase1{
-			display: none;
-		}
-		
 	
-	@media screen and (min-width: 700px) and (max-width:1199px ){		
-			body{
-					background: yellow;
-				}
-				.clase1{
-					display: block;
-				}
-				.clase0, .clase2{
-					display: none;
-				}
-				p{
-					font-family: 'Indie Flower', cursive;
-				}
-		}	
-	@media(min-width: 1200px){
+	@media screen and (min-width: 700px) and (max-width:1199px ){
 		body{
-				background: red;
-			}
-		p 	{
-				font-family: 'Roboto', sans-serif;
-			}
-		.clase0{
-			display: block;
+			background: yellow;
 		}
-		.clase2, .clase1{
-			display: none;
+	}
+	@media(min-width: 1200px){	
+		body{
+			background: red;
 		}
-		}	
+	}
 	</style>
 </head>
 <body>
 	<main>
-		<div class="clase0"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi veniam quasi unde fugit nemo blanditiis eius, nulla eum perferendis perspiciatis molestiae numquam animi excepturi optio reiciendis. Sit, iure minus facere.</p></div>
-		<div class="clase1"><p>hola</p></div>
-		<div class="clase2"><p>chao</p></div>
+		
 	</main>
 </body>
 </html>
